@@ -11,7 +11,6 @@
           </v-col>
           <v-col>
             <p style="
-              font-family: 'Old Standard TT', serif;
               font-size: 24px;
               text-align: left;
             ">

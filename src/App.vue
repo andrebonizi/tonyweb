@@ -75,6 +75,7 @@ export default {
         { icon: "home", title: "Home", link:"/"},
         { icon: "about", title: "About",link:"/about"},
         { icon: "services", title: "Services",link:"/services"},
+        { icon: "portifolio", title: "Portifolio",link:"/portifolio"},
         { icon: "contact", title: "Contact Me",link:"/contact"}
       ]
   }),

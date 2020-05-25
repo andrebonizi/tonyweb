@@ -1,10 +1,15 @@
 <template>
-  <v-container fluid style="background-image: linear-gradient(white, brown);">
+  <v-container fluid style="background-image: linear-gradient(white, brown);" >
     <v-row class="text-center" justify="center">
-        <h1 class="display-3 font-weight-bold mb-3" style="text-shadow: 2px 2px 5px">
-            CONTACT ME
-        </h1>
-        <v-col cols="9">
+        <v-col>
+          <h1 class="display-3 font-weight-bold mb-3" style="text-shadow: 2px 2px 5px">
+              CONTACT ME
+          </h1>  
+        </v-col>
+        
+    </v-row>
+        <v-row class="text-center" justify="center">
+          <v-col cols="9">
             <p><b>MOBILE/WHATSAPP:</b> +61 0410 391 913</p>
             <v-form
                 ref="form"
@@ -49,9 +54,10 @@
             <v-btn>
                 Send
             </v-btn>
-        </v-col>
+          </v-col>
         
-    </v-row>
+        </v-row>
+        
   </v-container>
 </template>
 <script>

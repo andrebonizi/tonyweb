@@ -65,7 +65,7 @@
           img: '../../public/img/transparent.png'
         },
         {
-          text:'Naati Translator',
+          text:'NAATI Translator',
           img: '../../public/img/logo.png'
         },
         {
