@@ -3,7 +3,7 @@
     <v-row class="text-center">
       <v-col class="mb-4">
         <h1 class="display-3 font-weight-bold mb-3" style="text-shadow: 2px 2px 5px">
-          MY SERVICES
+          SERVICES
         </h1>
         <v-row justify="center">
             <v-col align="center" justify="center">
@@ -42,7 +42,7 @@
                                 <li>Contracts</li>
                                 <li>Brochures</li>
                                 <li>Websites</li>
-                                <li>Scripts (Tv & Cinema)</li>
+                                <li>Scripts (TV & Cinema)</li>
                             </ul>
                             </v-col>
                         </v-row>
@@ -94,7 +94,7 @@
                                 <li>Course development</li>
                                 <li>Methodological adaptation</li>
                                 <li>Online training</li>
-                                <li>Writting courses</li>
+                                <li>Writing courses</li>
                             </ul>
                         </p>
                     </v-col>

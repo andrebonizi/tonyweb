@@ -51,9 +51,10 @@
                     </v-col>
                 </v-row>
             </v-form>
-            <v-btn>
+            <v-btn v-on:click="sendEmail">
                 Send
             </v-btn>
+            
           </v-col>
         
         </v-row>
@@ -80,5 +81,10 @@
         },
       ],
     }),
+    methods: {
+      sendEmail(){
+        window.open('mailto:proftony2010@gmail.com');
+      }
+    }
   }
 </script>

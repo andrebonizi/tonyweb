@@ -14,10 +14,15 @@
               font-size: 24px;
               text-align: left;
             ">
-              I am a naati-approved professional translator and a member of ausit (from portuguese INTO ENGLISH).<br>
-              <br>I have been teaching and training for over 20 years, in areas such as Language/Linguistics, Trasnlation and Teaching/Training. <br>
-              <br>I work with texts, subtitling and speech-writing in technical, financial, legal, marketing & advertising, and corporate areas.<br>
-              <br>I also develop, translate and adapt resumes and cover letters.
+              I am a NAATI-approved professional translator and a member of
+              AUSIT (from Portuguese into English).<br><br>
+              I have been developing learning solutions for over 20 years, in
+              areas such as Language/Linguistics, Translation and
+              Teaching/Training.<br><br>
+              I work with texts and documents, subtitling and speech writing
+              in technical, financial, legal, educational, marketing &amp;
+              advertising, and corporate areas.<br><br>
+              I also develop, translate and adapt resumes and cover letters.<br><br>
             </p>
           </v-col>
         </v-row>

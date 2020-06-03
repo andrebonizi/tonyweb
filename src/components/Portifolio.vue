@@ -1,14 +1,14 @@
 <template>
-  <v-container fluid style="background-image: linear-gradient(white, gold);">
-    <v-row class="text-center">
+  <v-container fluid style="background-image: linear-gradient(white, rgba(255,255,0,.5));">
+    <v-row class="text-center" align="center" justify="center">
       <v-col class="mb-4">
         <h1 class="display-3 font-weight-bold mb-3" style="text-shadow: 2px 2px 5px">
           PORTIFOLIO
         </h1>
-        <hr>
-        <v-row class="display-0 font-weight-bold mb-3 title" align="center" justify="center">Government work</v-row>
         
-        <v-row align="center" justify="center">
+        <v-row class="display-0 font-weight-bold mb-3 title" align="center" justify="left">GOVERNMENT WORK</v-row>
+        <hr>
+        <v-row align="center">
             <v-col><v-img class="img-portifolio img-shadow" src="../../public/img/WorldBank.svg"/></v-col>
             <v-col><v-img class="img-portifolio img-shadow" src="../../public/img/IFC.svg"/></v-col>
             <v-col><v-img class="img-portifolio img-shadow" src="../../public/img/BNDES.svg"/></v-col>
@@ -16,8 +16,9 @@
             <v-col><v-img class="img-portifolio img-shadow" src="../../public/img/BNDESPAR.png"/></v-col>
             <v-col><v-img class="img-portifolio img-shadow" src="../../public/img/CASA.png"/></v-col>
         </v-row>
-        <v-row class="display-0 font-weight-bold mb-3 title" align="center" justify="center">Corporations</v-row>
-        <v-row align="center" justify="center">
+        <v-row class="display-0 font-weight-bold mb-3 title" align="center" justify="left">CORPORATIONS</v-row>
+        <hr>
+        <v-row align="center">
             <v-col><v-img class="img-portifolio img-shadow" src="../../public/img/BancoSafra.jpg"/></v-col>
             <v-col><v-img class="img-portifolio img-shadow" src="../../public/img/GE.svg"/></v-col>
             <v-col><v-img class="img-portifolio img-shadow" src="../../public/img/Ambev.png"/></v-col>
@@ -45,8 +46,9 @@
             <v-col><v-img class="img-portifolio img-shadow" src="../../public/img/Atpiesp.png"/></v-col>
             <v-col><v-img class="img-portifolio img-shadow" src="../../public/img/GreenLeft.png"/></v-col>
         </v-row>
-        <v-row class="display-0 font-weight-bold mb-3 title" align="center" justify="center">Academia</v-row>
-        <v-row align="center" justify="center">
+        <v-row class="display-0 font-weight-bold mb-3 title" align="center" justify="left">ACADEMIA</v-row>
+        <hr>
+        <v-row align="center">
             <v-col><v-img class="img-portifolio img-shadow" src="../../public/img/Harvard.png"/></v-col>
             <v-col><v-img class="img-portifolio img-shadow" src="../../public/img/FGV.png"/></v-col>
             <v-col><v-img class="img-portifolio img-shadow" src="../../public/img/PUC.png"/></v-col>
@@ -73,8 +75,9 @@
     filter: drop-shadow(-1px 2px 1px #222);
 }
 .title{
-    padding: 50px;
-    text-decoration: underline;
+    padding-top: 50px;
+    padding-left: 50px;
+    text-decoration: none;
 }
 </style>
 
