@@ -52,9 +52,8 @@
                 </v-row>
             </v-form>
             <v-btn v-on:click="sendEmail">
-                Send
+                Send now!
             </v-btn>
-            
           </v-col>
         
         </v-row>
@@ -83,7 +82,27 @@
     }),
     methods: {
       sendEmail(){
-        window.open('mailto:proftony2010@gmail.com');
+        //alert("teste");
+        if( this.name === undefined ){
+          alert("Your name is required.");
+        }else{
+          if(this.email === undefined ){
+            alert("Your email is required.");
+          }else{
+            if(this.subject === undefined){
+              alert("Subject is required.");
+            }else{
+              if(this.message === undefined){
+                alert("A message is required.");
+              }else{
+                window.open('mailto:proftony2010@gmail.com?Subject=WEB CONTACT:'+this.subject+'&body='+this.message+'%0A%0A'+this.name+'%0A'+this.email);
+              }
+            }
+          }
+        }
+        //alert(this.message);
+        //window.open('mailto:proftony2010@gmail.com');
+        
       }
     }
   }
