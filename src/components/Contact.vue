@@ -82,27 +82,15 @@
     }),
     methods: {
       sendEmail(){
-        //alert("teste");
-        if( this.name === undefined ){
-          alert("Your name is required.");
-        }else{
-          if(this.email === undefined ){
-            alert("Your email is required.");
-          }else{
-            if(this.subject === undefined){
-              alert("Subject is required.");
-            }else{
-              if(this.message === undefined){
-                alert("A message is required.");
-              }else{
-                window.open('mailto:proftony2010@gmail.com?Subject=WEB CONTACT:'+this.subject+'&body='+this.message+'%0A%0A'+this.name+'%0A'+this.email);
-              }
-            }
-          }
-        }
-        //alert(this.message);
-        //window.open('mailto:proftony2010@gmail.com');
-        
+        this.name === undefined
+          ? alert("Your name is required.")
+          : this.email === undefined
+            ? alert("Your email is required.")
+            : this.subject === undefined
+              ? alert("Subject is required.")
+              : this.message === undefined
+                ? alert("A message is required.")
+                : window.open(`mailto:proftony2010@gmail.com?Subject=WEB CONTACT:${this.subject}&body=${this.message}%0A%0A${this.name}%0A${this.email}`);
       }
     }
   }
