@@ -1,18 +1,24 @@
 # tonyjrosenberg
 
+## Requirements
+- yarn
+- firebase
+
 ## Project setup
 ```
-npm install
+yarn
 ```
 
 ### Compiles and hot-reloads for development
 ```
-npm run serve
+yarn serve
+firebase serve
 ```
 
 ### Compiles and minifies for production
 ```
-npm run build
+yarn build
+firebase deploy
 ```
 
 ### Lints and fixes files
