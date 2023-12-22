@@ -1,7 +1,7 @@
 <template>
   <v-app>
   
-    <v-toolbar elevation="0" fixed app>
+    <v-app-bar elevation="0" fixed app>
       <v-toolbar-title>
         <div class="d-flex align-center">
           <v-img
@@ -35,9 +35,9 @@
         
       </v-menu>
       
-    </v-toolbar>
+    </v-app-bar>
     <v-content>
-      <router-view/>
+      <router-view style="height: 100%"/>
     </v-content>
     <v-footer dark color="darkgray">
       <v-container>
@@ -57,11 +57,12 @@
     </v-footer>
   </v-app>
 </template>
+
 <style>
   @import url('https://fonts.googleapis.com/css2?family=Old+Standard+TT:wght@700&display=swap');
 </style> 
-<script>
 
+<script>
 export default {
   name: 'App',
 
@@ -74,6 +75,7 @@ export default {
       menu: [
         { icon: "home", title: "Home", link:"/"},
         { icon: "about", title: "About",link:"/about"},
+        { icon: "course", title: "Course",link:"/course"},
         { icon: "services", title: "Services",link:"/services"},
         { icon: "portifolio", title: "Portifolio",link:"/portifolio"},
         { icon: "contact", title: "Contact Me",link:"/contact"}

@@ -1,46 +1,52 @@
-import Vue from 'vue'
-import Router from 'vue-router'
+import Vue from 'vue';
+import Router from 'vue-router';
 
-import Home from '@/components/HelloWorld'
-import About from '@/components/About.vue'
-import Services from '@/components/Services'
-import Portifolio from '@/components/Portifolio'
-import Contact from '@/components/Contact'
+import Home from '@/components/HelloWorld';
+import About from '@/components/About.vue';
+import Services from '@/components/Services';
+import Portifolio from '@/components/Portifolio';
+import Contact from '@/components/Contact';
+import Course from '@/components/Course';
 
-Vue.use(Router)
+Vue.use(Router);
 
 const routes = [
-    {
-        name: 'home',
-        path: '/',
-        component: Home
-    },
-    {
-        name: 'about',
-        path: '/about',
-        component: About
-    },
-    {
-        name: 'services',
-        path: '/services',
-        component: Services
-    },
-    {
-        name: 'portifolio',
-        path: '/portifolio',
-        component: Portifolio
-    },
-    {
-        name: 'contact',
-        path: '/contact',
-        component: Contact
-    }
-    
-]
+  {
+    name: 'home',
+    path: '/',
+    component: Home,
+  },
+  {
+    name: 'about',
+    path: '/about',
+    component: About,
+  },
+  {
+    name: 'services',
+    path: '/services',
+    component: Services,
+  },
+  {
+    name: 'course',
+    path: '/course',
+    component: Course,
+  },
+  {
+    name: 'portifolio',
+    path: '/portifolio',
+    component: Portifolio,
+  },
+  {
+    name: 'contact',
+    path: '/contact',
+    component: Contact,
+  },
+];
 
 const router = new Router({
-    routes, 
-    //this mode removes # from the url
-    mode: 'history'})
+  routes,
+  //this mode removes # from the url
+  mode: 'history',
+});
 
-export default router
+export default router;

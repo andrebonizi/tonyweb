@@ -1,7 +1,7 @@
 <template>
   <v-container fluid style="background-image: linear-gradient(white, rgba(255,255,0,.5));">
     <v-row class="text-center" align="center" justify="center">
-      <v-col class="mb-4">
+      <v-col class="mb-4" style="padding: 100px;">
         <h1 class="display-3 font-weight-bold mb-3" style="text-shadow: 2px 2px 5px">
           PORTIFOLIO
         </h1>
