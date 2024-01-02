@@ -6,7 +6,6 @@
               CONTACT ME
           </h1>  
         </v-col>
-        
     </v-row>
         <v-row class="text-center" justify="center">
           <v-col cols="9">
